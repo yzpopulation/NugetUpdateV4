@@ -28,7 +28,7 @@ namespace NugetUpdateV4
         {
             skinTextBox1.Text = AppDomain.CurrentDomain.BaseDirectory;
 #if DEBUG
-            skinTextBox1.Text = "D:\\dll\\Dropbox\\nugetpkg";
+            skinTextBox1.Text = @"E:\\dll\\Dropbox\\nugetpkg";
 #endif
 
         }

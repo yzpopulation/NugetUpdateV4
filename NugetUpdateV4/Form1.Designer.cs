@@ -86,9 +86,8 @@
             this.skinTextBox1.SkinTxt.Font = new System.Drawing.Font("微软雅黑", 9.75F);
             this.skinTextBox1.SkinTxt.Location = new System.Drawing.Point(5, 5);
             this.skinTextBox1.SkinTxt.Name = "BaseText";
-            this.skinTextBox1.SkinTxt.Size = new System.Drawing.Size(175, 18);
+            this.skinTextBox1.SkinTxt.Size = new System.Drawing.Size(667, 22);
             this.skinTextBox1.SkinTxt.TabIndex = 0;
-            this.skinTextBox1.SkinTxt.Text = "skinTextBox1";
             this.skinTextBox1.SkinTxt.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
             this.skinTextBox1.SkinTxt.WaterText = "";
             this.skinTextBox1.TabIndex = 1;
@@ -106,7 +105,7 @@
             this.skinLabel1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.skinLabel1.Location = new System.Drawing.Point(36, 50);
             this.skinLabel1.Name = "skinLabel1";
-            this.skinLabel1.Size = new System.Drawing.Size(68, 17);
+            this.skinLabel1.Size = new System.Drawing.Size(85, 20);
             this.skinLabel1.TabIndex = 2;
             this.skinLabel1.Text = "Nuget地址";
             // 
@@ -129,6 +128,7 @@
             // statusStrip1
             // 
             this.statusStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
             this.statusStrip1.Location = new System.Drawing.Point(4, 531);
@@ -144,7 +144,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 557);
             this.Controls.Add(this.statusStrip1);

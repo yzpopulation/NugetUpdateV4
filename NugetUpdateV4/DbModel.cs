@@ -8,7 +8,7 @@ namespace NugetUpdateV4
 {
   public  class DbModel
     {
-        []
+        
         public int Uid { get; set; }
 
         public string Id { get; set; }
